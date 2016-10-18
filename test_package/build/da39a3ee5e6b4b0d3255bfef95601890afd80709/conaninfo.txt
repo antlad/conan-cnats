@@ -1,0 +1,31 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=8.0
+    os=Macos
+
+[requires]
+    cnats/1.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=8.0
+    os=Macos
+
+[full_requires]
+    cnats/1.4.4@ebostijancic/testing:a47fd1f3db1f83c7cb0da8cea82a3e1683ae91ea
+
+[full_options]
+    cnats:shared=False
+    cnats:tls=False
+
+[scope]
+    dev=True
