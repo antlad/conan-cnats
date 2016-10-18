@@ -6,7 +6,7 @@ class CnatsConan(ConanFile):
     name = "cnats"
     version = "1.4.4"
     license = "MIT"
-    url = "<Package recipe repository url here, for issues about the package>"
+    url = "https://github.com/ebostijancic/conan-cnats"
     settings = "os", "compiler", "build_type", "arch"
     options = {"shared": [True, False], "tls": [True, False]}
     default_options = "shared=False", "tls=False"
